@@ -19,7 +19,10 @@ selectPlanButtons.forEach((btn) => {
 const closeModal = () => {
   // modal.style.display = "none";
   // backdrop.style.display = "none";
-  modal.classList.remove("open");
+  if (modal) {
+    modal.classList.remove("open");
+  }
+
   backdrop.classList.remove("open");
 };
 
@@ -28,7 +31,9 @@ backdrop.addEventListener("click", () => {
   mobileNav.classList.remove("open");
   closeModal();
 });
-modalNoButtons.addEventListener("click", closeModal);
+if (modalNoButtons) {
+  modalNoButtons.addEventListener("click", closeModal);
+}
 
 toggleButton.addEventListener("click", () => {
   // mobileNav.style.display = "block";
