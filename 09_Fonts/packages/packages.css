@@ -74,6 +74,8 @@ main {
 
   font-family: "UbuntuMono", sans-serif;
   /* font-weight: 700; */
+
+  line-height: 2;
 }
 
 .clearfix {
