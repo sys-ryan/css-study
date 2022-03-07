@@ -3,6 +3,7 @@
   /* src: url("ubuntuMono-Regular.woff2") format("woff2"), url("ubuntuMono-Regular.woff") format("woff"),
     url("ubuntuMono-Regular.ttf") format("truetype"); */
   src: url("ubuntuMono-Regular.ttf") format("truetype");
+  /* font-display: swap; */
 }
 
 @font-face {
