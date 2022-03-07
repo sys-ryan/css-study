@@ -1,11 +1,13 @@
 @font-face {
   font-family: "UbuntuMono";
-  src: url("ubuntuMono-Regular.ttf");
+  /* src: url("ubuntuMono-Regular.woff2") format("woff2"), url("ubuntuMono-Regular.woff") format("woff"),
+    url("ubuntuMono-Regular.ttf") format("truetype"); */
+  src: url("ubuntuMono-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "UbuntuMono";
-  src: url("ubuntuMono-Bold.ttf");
+  src: url("ubuntuMono-Bold.ttf") format("truetype");
   font-weight: 700;
 }
 
