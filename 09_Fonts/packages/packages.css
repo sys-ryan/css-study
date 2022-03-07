@@ -84,6 +84,12 @@ main {
   /* text-decoration: line-through dotted; */
 
   /* text-shadow: 2px 2px 7px gray; */
+
+  /* font: 700 1.2rem "UbuntuMono", sans-serif; */
+  /* font: italic small-caps 700 1.2rem/2 "UbuntuMono", sans-serif; */
+  /* font-style font-variant font-weight font-size/line-height font-family */
+
+  /* font: menu; */
 }
 
 .clearfix {
