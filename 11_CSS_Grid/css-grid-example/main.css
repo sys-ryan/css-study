@@ -4,7 +4,7 @@ body {
 .container {
   margin: 20px;
   display: grid;
-  height: 200px;
+  height: 500px;
   /* grid-template-columns: 200px 2fr 20% 1fr; */
   /* grid-template-columns: 200px 5rem 20% auto; */
 
@@ -13,7 +13,8 @@ body {
 
   /* grid-template-rows: 5rem 2.5rem; */
   /* grid-template-rows: 5rem auto; */
-  grid-template-rows: 5rem minmax(10px, 200px);
+  /* grid-template-rows: 5rem minmax(10px, 200px); */
+  grid-template-rows: [row-1-start] 5rem [row-1-end row-2-start] minmax(10px, auto) [row-2-end row-3-start] 100px;
 }
 
 .el1 {
@@ -24,8 +25,8 @@ body {
   background: rgba(255, 0, 0, 0.5);
   grid-column-start: 1;
   grid-column-end: -1;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-start: row-2-start;
+  grid-row-end: row-3-start;
   /* z-index: 10; */
 }
 
