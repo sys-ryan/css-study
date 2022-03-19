@@ -1,0 +1,34 @@
+.container {
+  position: relative;
+  margin: 150px auto;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  /* perspective: 800px;
+  perspective-origin: right; */
+  perspective: 1000px;
+  perspective-origin: 500px;
+}
+
+.box1 {
+  position: absolute;
+  background: red;
+  width: 200px;
+  height: 200px;
+  /* transform: rotateX(60deg) rotateY(30deg); */
+  transform: rotateY(80deg);
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.box2 {
+  position: absolute;
+  background: blue;
+  width: 100%;
+  height: 100%;
+  transform: translateX(1rem) translateZ(10rem);
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
